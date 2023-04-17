@@ -1,18 +1,18 @@
-<p align="center"><img src="https://telegra.ph/file/8edbffafac3e7f3e8ad10.jpg"></p>
+<p align="center"><img src="https://telegra.ph/file/9b951b1b2d7a15dc5d8b1.jpg"></p>
 
 <h4 align="center">
     A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon.
 </h4>
 <p align="center">
-    <a href="https://t.me/Tiana_Prince_Bot"> Ready-To-Use Bot </a> •
+    <a href="https://t.me/CPLJET_Bot"> Ready-To-Use Bot </a> •
     <a href="http://www.prince-botz.tk/2022/02/tiana-bot.html?m=1"> Documentation </a> •
-    <a href="https://t.me/TianaxUpdates"> Update Channel </a> •
-    <a href="https://t.me/TianaxSupport"> Support Chat </a> 
+    <a href="https://t.me/love_talksfamily"> Update Channel </a> •
+    <a href="https://t.me/love_talksfamily"> Support Chat </a> 
 </p>
     
 # Tiana Bot
 #### Tiana is a Telegram group managment bot made using Telethon and Pyrogram which makes it modern and faster than most of the exisitng Telegram Chat Managers.
-<p align="center"><img src="https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg"></p>
+<p align="center"><img src="https://telegra.ph/file/9b951b1b2d7a15dc5d8b1.jpg"></p>
 
 #### Tiana's features over other bots:
 - Modern
@@ -25,7 +25,7 @@
 - Smart Ai System
 - Easy To Use
 
-Can be found on Telegram as [@TianaRobot](https://t.me/TIANA_PRINCE_BOT)
+Can be found on Telegram as [CPLJET_Bot](https://t.me/CPLJET_Bot)
 
 ## Deployment
 First Step!
@@ -68,8 +68,8 @@ Read [Docs](http://www.prince-botz.tk/2022/02/tiana-bot.html?m=1) for Detailed D
 
 
 ```console
-$ git clone https://github.com/Prince-Botz/TianaBot
-$ cd TianaBot
+$ git clone https://github.com/Imteyazking/Love_Talks
+$ cd CPLJET_Bot
 $ pip3 install -U -r requirements.txt
 $ cp sample.env .env
 ```
@@ -82,16 +82,16 @@ $ bash start
 
 ## Contact & Support
 
-- [Telegram Channel](https://t.me/TianaxUpdates)
-- [Telegram Support Group](https://t.me/TianaxSupport)
-- [Contact Owner](https://t.me/PrincexAssistantBot)
+- [Telegram Channel](https://t.me/love_talksfamily)
+- [Telegram Support Group](https://t.me/love_talksfamily)
+- [Contact Owner](https://t.me/PrimeOptimuse)
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License.](https://github.com/Prince-Botz/TianaBot/blob/main/LICENSE) See `LICENSE.md` for more information.
+Distributed under the [GNU General Public License v3.0 License.](https://github.com/Imteyazking/Love_Talks/blob/main/LICENSE) See `LICENSE.md` for more information.
 
 ## Acknowledgements
 
-Special thanks to these amazing projects/people which/who help power Tiana Bot:
+Special thanks to these amazing projects/people which/who help power CPLJET Bot:
 
-- [Prince](https://t.me/NoobxCoder)
+- [Imteyaz](https://t.me/Imteyaz_king)
