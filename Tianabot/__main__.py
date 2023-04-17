@@ -93,18 +93,18 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙃𝙚𝙡𝙥 ❗️", callback_data="tiana_"),
+        InlineKeyboardButton(text="❓ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙃𝙚𝙡𝙥 ❗️", callback_data="CPL Jet_"),
     ],
     [
         InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
-        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧 👨‍✈️", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧 👨‍✈️", url=f"https://t.me/PrimeOptimuse"),
     ],
    [
-        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"https://t.me/love_talksfamily"),
+        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/love_talksfamily"),
     ],
     [  
-        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/CPLJET_Bot?startgroup=true"),
     ], 
     
 ]
@@ -247,8 +247,8 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="📄 Source", url="https://github.com/prince-botz/tianabot"), 
-                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
+                  [InlineKeyboardButton(text="📄 Source", url="https://github.com/Imteyazking/Love_Talks/blob/main/app.json"), 
+                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/love_talksfamily")]
                  ]
               ),
                 parse_mode=ParseMode.MARKDOWN,              
@@ -401,9 +401,9 @@ Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜ
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
               [[InlineKeyboardButton(text="𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="tiana_vida")],
-               [InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],       
-                [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_"),
-                 InlineKeyboardButton(text="➡️", callback_data="tiana_helpa")]
+               [InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/CPLJET_Bot?startgroup=true")],       
+                [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="CPLJET_Bot_"),
+                 InlineKeyboardButton(text="➡️", callback_data="CPLJET_Bot_helpa")]
               ]
             ),
         )
@@ -417,8 +417,8 @@ Bᴇғᴏʀᴇ  Wᴇ  Gᴏ,  I  Nᴇᴇᴅ  Aᴅᴍɪɴ  Pᴇʀᴍɪssɪᴏɴs  
 3). Gɪᴠɪɴɢ  Fᴜʟʟ  Pᴇʀᴍɪssɪᴏɴs  Mᴀᴋᴇ  Tɪᴀɴᴀ  Fᴜʟʟʏ  Usᴇғᴜʟ</b>""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-              [[InlineKeyboardButton(text="⬅️", callback_data="tiana_help"),
-                InlineKeyboardButton(text="➡️", callback_data="tiana_helpb")],               
+              [[InlineKeyboardButton(text="⬅️", callback_data="CPLJET_Bot_help"),
+                InlineKeyboardButton(text="➡️", callback_data="CPLJET_helpb")],               
               ]
             ),
         )
@@ -502,8 +502,8 @@ Nᴏᴛᴇ-  ɴɪɢʜᴛ  ᴍᴏᴅᴇ  ᴄʜᴀᴛs  ɢᴇᴛ  ᴀᴜᴛᴏᴍ�
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-              [InlineKeyboardButton(text="𝙐𝙥𝙙𝙖𝙩𝙚", url=f"https://t.me/{UPDATE_CHANNEL}"),       
-              InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url=f"https://t.me/{SUPPORT_CHAT}")],       
+              [InlineKeyboardButton(text="𝙐𝙥𝙙𝙖𝙩𝙚", url=f"https://t.me/love_talksfamily"),       
+              InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url=f"https://t.me/love_talksfamily")],       
               [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_")]]
             ),
         )
@@ -580,7 +580,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_music")]]
+                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="cpl_music")]]
             ),
         )
     elif query.data == "tiana_musicb":
@@ -620,7 +620,7 @@ Tiana has a additional feature for non-admin users who want to use admin command
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_music")]]
+                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="cpl_music")]]
             ),
         )
     elif query.data == "tiana_musicc":
@@ -641,7 +641,7 @@ Tiana has a additional feature for non-admin users who want to use admin command
 - Ping the Bot and check Ram, Cpu etc stats of Tiana.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_music")]]
+                [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="cpl_music")]]
             ),
         )
     elif query.data == "tiana_musicd":
@@ -675,7 +675,7 @@ Tiana has a additional feature for non-admin users who want to use admin command
             
 Bot Admins
                        
-• @{OWNER_USERNAME}, bot creator and main developer.
+• @PrimeOptimuse, bot creator and main developer.
             
 • The Doctor, server manager and developer.
             
