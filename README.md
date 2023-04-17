@@ -10,11 +10,11 @@
     <a href="https://t.me/love_talksfamily"> Support Chat </a> 
 </p>
     
-# Tiana Bot
+# CPLJET_Bot 
 #### Tiana is a Telegram group managment bot made using Telethon and Pyrogram which makes it modern and faster than most of the exisitng Telegram Chat Managers.
 <p align="center"><img src="https://telegra.ph/file/9b951b1b2d7a15dc5d8b1.jpg"></p>
 
-#### Tiana's features over other bots:
+#### CPLJET_Bot's features over other bots:
 - Modern
 - Fast
 - Fully open-source
@@ -25,7 +25,7 @@
 - Smart Ai System
 - Easy To Use
 
-Can be found on Telegram as [CPLJET_Bot](https://t.me/CPLJET_Bot)
+Can be found on Telegram as [@CPLJET_Bot](https://t.me/CPLJET_Bot)
 
 ## Deployment
 First Step!
