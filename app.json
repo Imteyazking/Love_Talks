@@ -73,11 +73,11 @@
       },
       "BOT_USERNAME": {
          "description": "Your bot username without the @",
-         "value": "Tiana_Prince_Bot"
+         "value": "CPLJET_Bot"
       },
       "ASS_USERNAME": {
          "description": "Your Musicbot Assistant username without the @",
-         "value": ""
+         "value": "CPLMusicAssis"
       },
       "BOT_NAME": {
          "description": "Your Bot Name",
